@@ -94,8 +94,8 @@ p {
   background-color: #f3f3f3;
 }
 
-.content_block:last-child {
-  margin-top: 40px;
+.content_block:first-of-type {
+  margin-bottom: 40px;
 }
 
 .content_block p {
