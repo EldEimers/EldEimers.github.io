@@ -41,7 +41,7 @@ ul {
   padding-left: 15px;
 }
 
-li:nth-last-child() {
+li:not(:last-child){
   margin-bottom: 20px;
 }
 
@@ -76,7 +76,6 @@ p {
 .link-item:last-child {
   margin-left: 25px;
 }
-
 
 .container {
   margin: 0 auto;
