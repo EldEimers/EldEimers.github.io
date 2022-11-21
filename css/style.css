@@ -215,7 +215,7 @@ p {
   margin-bottom: 50px;
 }
 
-.test {
+.modules_items {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
@@ -223,18 +223,18 @@ p {
   margin: 0;
 }
 
-.test_item {
+.modules_item {
   width: 572px;
   height: 505px;
   list-style: none;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
 }
 
-.test_item_img {
+.modules_item_img {
   margin: 0;
 }
 
-.test_item_content {
+.modules_item_content {
   display: flex;
   flex-direction: column;
   width: 522px;
@@ -242,23 +242,23 @@ p {
   margin: 25px;
 }
 
-.test_item:last-child{
+.modules_item:last-child{
   margin-bottom: 50px;
 }
 
-.test_item_title {
+.modules_item_title {
   color: #3F2AFF;
   font-size: 40px;
   font-weight: bold;
   margin: 0 0 2px 0;
 }
 
-.test_item_text {
+.modules_item_text {
   width: auto;
   margin: 0;
 }
 
-.test_item_number {
+.modules_item_number {
   align-self: flex-end;
   font-size: 40px;
   color: #EAEAEA;
