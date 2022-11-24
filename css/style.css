@@ -224,11 +224,25 @@ p {
   margin: 0;
 }
 
+.modules_items a {
+  border: none;
+  color: #333;
+  font-size: 20px;
+  line-height: 165%;
+  margin: 0;
+  height: max-content;
+  width: max-content;
+}
+
 .modules_item {
   width: 572px;
   height: 505px;
   list-style: none;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+}
+
+.modules_item_img_link{
+  display: flex;
 }
 
 .modules_item_img {
@@ -251,16 +265,6 @@ p {
 .modules_ul li {
   margin: 0;
   height: 33px;
-  width: max-content;
-}
-
-.modules_ul a{
-  border: none;
-  color: #333;
-  font-size: 20px;
-  line-height: 165%;
-  margin: 0;
-  height: max-content;
   width: max-content;
 }
 
