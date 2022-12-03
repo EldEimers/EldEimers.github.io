@@ -241,12 +241,21 @@ p {
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
 }
 
-.modules_item_img_link{
+.modules_item_img_link {
   display: flex;
 }
 
 .modules_item_img {
   margin: 0;
+}
+
+.modules_item_img_for_Dinnar {
+  padding: 90px 286px;
+}
+
+.modules_item_bg_1 {
+  background-image: url(../img/module_item_1.png);
+  background-repeat: no-repeat;
 }
 
 .modules_item_content {
@@ -257,7 +266,7 @@ p {
   margin: 25px;
 }
 
-.modules_ul{
+.modules_ul {
   list-style: none;
   padding: 0;
 }
@@ -268,7 +277,7 @@ p {
   width: max-content;
 }
 
-.modules_item:last-child{
+.modules_item:last-child {
   margin-bottom: 50px;
 }
 
@@ -295,3 +304,4 @@ p {
   margin: 0 0 48px;
   padding: 24px 75px;
 }
+
