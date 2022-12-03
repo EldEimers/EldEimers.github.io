@@ -249,13 +249,18 @@ p {
   margin: 0;
 }
 
-.modules_item_img_for_Dinnar {
-  padding: 90px 286px;
-}
-
 .modules_item_bg_1 {
   background-image: url(../img/module_item_1.png);
   background-repeat: no-repeat;
+}
+
+.modules_item_content_for_Dinnar{
+  display: flex;
+  flex-direction: column;
+  width: 522px;
+  height: 275px;
+  margin: 25px;
+  margin-top: 205px;
 }
 
 .modules_item_content {
