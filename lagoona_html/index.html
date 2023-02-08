@@ -13,13 +13,15 @@
 <body>
 
   <div class="header">
-    <a class="logo" href="#"><img src="img/logo.svg" alt="logo_icon"></a>
-    <a class="telephone_number" href="#">+7 495 322-54-48</a>
+    <div class="header_left">
+      <a class="logo" href="#"><img src="img/logo.svg" alt="logo_icon"></a>
+      <a class="telephone_number" href="#">+7 495 322-54-48</a>
+    </div>
     <a class="personal_cabinet" href="#">Личный кабинет</a>
   </div>
 
   <nav class="navigation">
-    <ul>
+    <ul class="nav_ul">
       <li class="nav_text"><a href="#">О нас</a></li>
       <li class="nav_text"><a href="#">Услуги</a></li>
       <li class="nav_text"><a href="#">Преимущества</a></li>
@@ -27,41 +29,54 @@
       <li class="nav_text"><a href="#">Блог</a></li>
       <li class="nav_text"><a href="#">Контакты</a></li>
     </ul>
-    <button class="btn"><a href="#">Хочу тур</a></button>
-    <button class="btn"><a href="#">Обратный звонок</a></button>
+    <div class="nav_content_right">
+      <button class="btn"><a href="#">Хочу тур</a></button>
+      <button class="btn nav_content_right_last_one"><a href="#">Обратный звонок</a></button>
+    </div>
   </nav>
 
   <div class="main">
 
     <div class="container">
-      <h2>Спецпредложения</h2>
+      <h2 class="block_title">Спецпредложения</h2>
       <div class="offers content_margin">
 
-        <div class="offers_element offers_element_big">
-          <h2 class="h2_white">Мальдивские острова</h2>
-          <p>от 55000</p>
-          <a href="#">Подробнее</a>
+        <div class="offers_left_side">
+
+          <div class="offers_element offers_element_top">
+            <div class="offers_element_content">
+              <h2 class="h2_white">Мальдивские острова</h2>
+              <p class="offers_cost">от 55 000</p>
+              <a href="#">Подробнее</a>
+            </div>
+          </div>
+
+          <div class="offers_element offers_element_bot">
+            <div class="offers_element_content">
+              <h2 class="h2_white">Горящий тур на остров Крит</h2>
+              <p class="offers_cost">от 30 000</p>
+              <a href="#">Подробнее</a>
+            </div>
+          </div>
         </div>
 
-        <div class="offers_element">
-          <h2 class="h2_white">Горящий тур на остров Крит</h2>
-          <p>от 30000</p>
-          <a href="#">Подробнее</a>
+        <div class="offers_right_side">
+          <div class="offers_element offers_element_big">
+            <div class="offers_element_content_big">
+              <h1>Номера категории люкс</h1>
+              <p class="offers_cost">от 5 000</p>
+              <a href="#">Подробнее</a>
+            </div>
+          </div>
         </div>
-
-        <div class="offers_element">
-          <h1>Номера категории люкс</h1>
-          <p>от 5000</p>
-          <a href="#">Подробнее</a>
-        </div>
-
       </div>
     </div>
 
     <section id="about_us">
       <div class="container">
-        <h2>О нас</h2>
-        <p class="content_margin">Идейные соображения высшего порядка, а также сложившаяся структура организации влечёт за собой процесс
+        <h2 class="block_title">О нас</h2>
+        <p class="content_margin about_us_content">Идейные соображения высшего порядка, а также сложившаяся структура
+          организации влечёт за собой процесс
           внедрения
           и модернизации системы обучения кадров, соответствует насущным потребностям. Идейные соображения высшего
           порядка,
@@ -75,27 +90,35 @@
 
     <section id="services">
       <div class="container">
-        <h2>Услуги</h2>
+        <h2 class="block_title">Услуги</h2>
         <ul class="services_offers content_margin">
 
           <li class="services_offers_element">
-            <a class="services_link" href="#">Эксклюзивное обслуживание</a>
-            <p>Равным образом постоянный количественный рост и сфера нашей активности</p>
+            <div class="services_offers_element_content">
+              <a class="services_link" href="#">Эксклюзивное обслуживание</a>
+              <p>Равным образом постоянный количественный рост и сфера нашей активности</p>
+            </div>
           </li>
 
           <li class="services_offers_element">
-            <a class="services_link" href="#">Аренда банкетных залов</a>
-            <p>Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм</p>
+            <div class="services_offers_element_content">
+              <a class="services_link" href="#">Аренда банкетных залов</a>
+              <p>Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм</p>
+            </div>
           </li>
 
           <li class="services_offers_element">
-            <a class="services_link" href="#">Сауны, бассейны, бани, фитнес-залы</a>
-            <p>Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
+            <div class="services_offers_element_content">
+              <a class="services_link" href="#">Сауны, бассейны, бани, фитнес-залы</a>
+              <p>Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
+            </div>
           </li>
 
           <li class="services_offers_element">
-            <a class="services_link" href="#">Охраняемые автомобильные стоянки</a>
-            <p>Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
+            <div class="services_offers_element_content">
+              <a class="services_link" href="#">Охраняемые автомобильные стоянки</a>
+              <p>Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
+            </div>
           </li>
 
         </ul>
@@ -104,7 +127,7 @@
 
     <section id="benefits">
       <div class="container">
-        <h2>Преимущества</h2>
+        <h2 class="block_title">Преимущества</h2>
         <ul class="benefits_cards content_margin">
 
           <li class="benefits_cards_element">
@@ -145,234 +168,270 @@
 
     <section id="accommodation">
       <div class="container">
-        <h2>Размещение</h2>
+        <h2 class="block_title">Размещение</h2>
         <ul class="accommodation_hotels content_margin">
 
-          <li class="accommodation_hotels">
+          <li class="accommodation_hotels_element">
+            <div class="accommodation_hotels_element_content">
 
-            <div class="accommodation_price">
-              <p class="text_grey">от</p>
-              <p class="accommodation_price_number">4698</p>
-              <p class="accommodation_price_night"> / ночь</p>
+              <div class="accommodation_price">
+                <p class="text_grey">от</p>
+                <p class="accommodation_price_number">4698</p>
+                <p class="accommodation_price_night"> / ночь</p>
+              </div>
+
+              <p class="accommodation_hotels_name">Lagoona española</p>
+              <p class="text_grey">Барселона, Испания</p>
+              <button class="btn"><a href="#">Номера</a></button>
+
             </div>
-
-            <p class="accommodation_hotels_name">Lagoona española</p>
-            <p class="text_grey">Барселона, Испания</p>
-            <button class="btn"><a href="#">Номера</a></button>
           </li>
 
-          <li class="accommodation_hotels">
+          <li class="accommodation_hotels_element">
+            <div class="accommodation_hotels_element_content">
 
-            <div class="accommodation_price">
-              <p class="text_grey">от</p>
-              <p class="accommodation_price_number">5148</p>
-              <p class="accommodation_price_night"> / ночь</p>
+              <div class="accommodation_price">
+                <p class="text_grey">от</p>
+                <p class="accommodation_price_number">5148</p>
+                <p class="accommodation_price_night"> / ночь</p>
+              </div>
+
+              <p class="accommodation_hotels_name">Lagoona son típicas</p>
+              <p class="text_grey">Барселона, Испания</p>
+              <button class="btn"><a href="#">Номера</a></button>
+
             </div>
-
-            <p class="accommodation_hotels_name">Lagoona son típicas</p>
-            <p class="text_grey">Барселона, Испания</p>
-            <button class="btn"><a href="#">Номера</a></button>
           </li>
 
-          <li class="accommodation_hotels">
+          <li class="accommodation_hotels_element">
+            <div class="accommodation_hotels_element_content">
 
-            <div class="accommodation_price">
-              <p class="text_grey">от</p>
-              <p class="accommodation_price_number">6254</p>
-              <p class="accommodation_price_night"> / ночь</p>
+              <div class="accommodation_price">
+                <p class="text_grey">от</p>
+                <p class="accommodation_price_number">6254</p>
+                <p class="accommodation_price_night"> / ночь</p>
+              </div>
+
+              <p class="accommodation_hotels_name">Lagoona de la guerra</p>
+              <p class="text_grey">Барселона, Испания</p>
+              <button class="btn"><a href="#">Номера</a></button>
+
             </div>
-
-            <p class="accommodation_hotels_name">Lagoona de la guerra</p>
-            <p class="text_grey">Барселона, Испания</p>
-            <button class="btn"><a href="#">Номера</a></button>
           </li>
 
-          <li class="accommodation_hotels">
+          <li class="accommodation_hotels_element">
+            <div class="accommodation_hotels_element_content">
 
-            <div class="accommodation_price">
-              <p class="text_grey">от</p>
-              <p class="accommodation_price_number">6320</p>
-              <p class="accommodation_price_night"> / ночь</p>
+              <div class="accommodation_price">
+                <p class="text_grey">от</p>
+                <p class="accommodation_price_number">6320</p>
+                <p class="accommodation_price_night"> / ночь</p>
+              </div>
+
+              <p class="accommodation_hotels_name">Lagoona mentira piadosa</p>
+              <p class="text_grey">Барселона, Испания</p>
+              <button class="btn"><a href="#">Номера</a></button>
+
             </div>
-
-            <p class="accommodation_hotels_name">Lagoona mentira piadosa</p>
-            <p class="text_grey">Барселона, Испания</p>
-            <button class="btn"><a href="#">Номера</a></button>
           </li>
 
-          <li class="accommodation_hotels">
+          <li class="accommodation_hotels_element">
+            <div class="accommodation_hotels_element_content">
 
-            <div class="accommodation_price">
-              <p class="text_grey">от</p>
-              <p class="accommodation_price_number">6457</p>
-              <p class="accommodation_price_night"> / ночь</p>
+              <div class="accommodation_price">
+                <p class="text_grey">от</p>
+                <p class="accommodation_price_number">6457</p>
+                <p class="accommodation_price_night"> / ночь</p>
+              </div>
+
+              <p class="accommodation_hotels_name">Lagoona empujar la creatividad</p>
+              <p class="text_grey">Барселона, Испания</p>
+              <button class="btn"><a href="#">Номера</a></button>
+
             </div>
-
-            <p class="accommodation_hotels_name">Lagoona empujar la creatividad</p>
-            <p class="text_grey">Барселона, Испания</p>
-            <button class="btn"><a href="#">Номера</a></button>
           </li>
 
-          <li class="accommodation_hotels">
+          <li class="accommodation_hotels_element">
+            <div class="accommodation_hotels_element_content">
 
-            <div class="accommodation_price">
-              <p class="text_grey">от</p>
-              <p class="accommodation_price_number">6320</p>
-              <p class="accommodation_price_night"> / ночь</p>
+              <div class="accommodation_price">
+                <p class="text_grey">от</p>
+                <p class="accommodation_price_number">6320</p>
+                <p class="accommodation_price_night"> / ночь</p>
+              </div>
+
+              <p class="accommodation_hotels_name">Lagoona el retorno</p>
+              <p class="text_grey">Барселона, Испания</p>
+              <button class="btn"><a href="#">Номера</a></button>
+
             </div>
-
-            <p class="accommodation_hotels_name">Lagoona el retorno</p>
-            <p class="text_grey">Барселона, Испания</p>
-            <button class="btn"><a href="#">Номера</a></button>
           </li>
 
-          <li class="accommodation_hotels">
+          <li class="accommodation_hotels_element">
+            <div class="accommodation_hotels_element_content">
 
-            <div class="accommodation_price">
-              <p class="text_grey">от</p>
-              <p class="accommodation_price_number">6505</p>
-              <p class="accommodation_price_night"> / ночь</p>
+              <div class="accommodation_price">
+                <p class="text_grey">от</p>
+                <p class="accommodation_price_number">6505</p>
+                <p class="accommodation_price_night"> / ночь</p>
+              </div>
+
+              <p class="accommodation_hotels_name">Lagoona mentira piadosa</p>
+              <p class="text_grey">Барселона, Испания</p>
+              <button class="btn"><a href="#">Номера</a></button>
+
             </div>
-
-            <p class="accommodation_hotels_name">Lagoona mentira piadosa</p>
-            <p class="text_grey">Барселона, Испания</p>
-            <button class="btn"><a href="#">Номера</a></button>
           </li>
 
-          <li class="accommodation_hotels">
+          <li class="accommodation_hotels_element">
+            <div class="accommodation_hotels_element_content">
 
-            <div class="accommodation_price">
-              <p class="text_grey">от</p>
-              <p class="accommodation_price_number">6824</p>
-              <p class="accommodation_price_night"> / ночь</p>
+              <div class="accommodation_price">
+                <p class="text_grey">от</p>
+                <p class="accommodation_price_number">6824</p>
+                <p class="accommodation_price_night"> / ночь</p>
+              </div>
+
+              <p class="accommodation_hotels_name">Lagoona suerte siguió siempre</p>
+              <p class="text_grey">Барселона, Испания</p>
+              <button class="btn"><a href="#">Номера</a></button>
+
             </div>
-
-            <p class="accommodation_hotels_name">Lagoona suerte siguió siempre</p>
-            <p class="text_grey">Барселона, Испания</p>
-            <button class="btn"><a href="#">Номера</a></button>
           </li>
 
-          <li class="accommodation_hotels">
-            <a href="#">Посмотреть все варианты</a>
+          <li class="accommodation_hotels_element">
+            <div class="accommodation_hotels_element_big">
+              <a class="" href="#">Посмотреть все варианты</a>
+            </div>
           </li>
 
         </ul>
       </div>
     </section>
-    
+
     <section id="tour" class="tour">
       <div class="container">
-        <h2>Хочу тур</h2>
+        <h2 class="block_title">Хочу тур</h2>
         <div class="calculator content_margin">
-          <ul>
 
-            <li>
-              <p class="calculator_text">Город вылета</p>
-              <select name="calculator_list">
-                <option value="St. Petersburg">Санкт-Петербург</option>
-              </select>
-            </li>
-
-            <li>
-              <p class="calculator_text">Страна</p>
-              <select name="calculator_list">
-                <option value="Australia">Австралия</option>
-              </select>
-            </li>
-
-            <li>
-              <p class="calculator_text">Дата прибытия</p>
-              <select name="calculator_list">
-                <option value="anything">18.10.2021</option>
-              </select>
-            </li>
-
-            <li>
-              <p class="calculator_text">Ночей</p>
-              <select name="calculator_list">
-                <option value="6">6</option>
-              </select>
-            </li>
-
-            <li>
-              <p class="calculator_text">Туристы</p>
-              <select name="calculator_list">
-                <option value="2">2</option>
-              </select>
-            </li>
-
-            <li><button class="btn"><a href="#">Найти</a></button></li>
-
-          </ul>
         </div>
-      </div>
-    </section>
-
-    <section id="contacts" class="container">
-      <h2>Контакты</h2>
-      <div class="content_margin">
         <ul>
 
           <li>
-            <ul>
-              <li>
-                <h3>Адрес</h3>
-              </li>
-              <li>
-                <ul>
-                  <li><p>Москва, улица Юности, дом 5 строение 4, офис 2</p></li>
-                </ul>
-              </li>
-            </ul>
+            <p class="calculator_text">Город вылета</p>
+            <select name="calculator_list">
+              <option value="St. Petersburg">Санкт-Петербург</option>
+            </select>
           </li>
 
           <li>
-            <ul>
-              <li>
-                <h3>Телефоны</h3>
-              </li>
-              <li>
-                <ul>
-                  <li><a href="#">+7 499 535-64-34</a></li>
-                  <li><a href="#">+7 495 005-05-44</a></li>
-                </ul>
-              </li>
-            </ul>
+            <p class="calculator_text">Страна</p>
+            <select name="calculator_list">
+              <option value="Australia">Австралия</option>
+            </select>
           </li>
 
           <li>
-            <ul>
-              <li>
-                <h3>Email</h3>
-              </li>
-              <li>
-                <ul>
-                  <li> <a href="#">lg.oona@mail.ru</a> </li>
-                  <li><p class="text_grey">по вопросам бронирования</p></li>
-                  <li> <a href="#">hotels.ln@mail.ru</a> </li>
-                  <li><p class="text_grey">по вопросам сотрудничества</p></li>
-                </ul>
-              </li>
-            </ul>
+            <p class="calculator_text">Дата прибытия</p>
+            <select name="calculator_list">
+              <option value="anything">18.10.2021</option>
+            </select>
           </li>
 
           <li>
-            <ul>
-              <li>
-                <h3>График</h3>
-              </li>
-              <li>
-                <ul>
-                  <li><p>Понедельник-пятница, с 10:00 до 19:00</p></li>
-                </ul>
-              </li>
-            </ul>
+            <p class="calculator_text">Ночей</p>
+            <select name="calculator_list">
+              <option value="6">6</option>
+            </select>
           </li>
 
-          <button class="btn"><a href="#">Построить маршрут</a></button>
+          <li>
+            <p class="calculator_text">Туристы</p>
+            <select name="calculator_list">
+              <option value="2">2</option>
+            </select>
+          </li>
+
+          <li><button class="btn"><a href="#">Найти</a></button></li>
+
         </ul>
       </div>
-    </section>
+  </div>
+  </section>
+
+  <section id="contacts" class="container">
+    <h2 class="block_title">Контакты</h2>
+    <div class="content_margin">
+      <ul>
+
+        <li>
+          <ul>
+            <li>
+              <h3>Адрес</h3>
+            </li>
+            <li>
+              <ul>
+                <li>
+                  <p>Москва, улица Юности, дом 5 строение 4, офис 2</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <ul>
+            <li>
+              <h3>Телефоны</h3>
+            </li>
+            <li>
+              <ul>
+                <li><a href="#">+7 499 535-64-34</a></li>
+                <li><a href="#">+7 495 005-05-44</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <ul>
+            <li>
+              <h3>Email</h3>
+            </li>
+            <li>
+              <ul>
+                <li> <a href="#">lg.oona@mail.ru</a> </li>
+                <li>
+                  <p class="text_grey">по вопросам бронирования</p>
+                </li>
+                <li> <a href="#">hotels.ln@mail.ru</a> </li>
+                <li>
+                  <p class="text_grey">по вопросам сотрудничества</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <ul>
+            <li>
+              <h3>График</h3>
+            </li>
+            <li>
+              <ul>
+                <li>
+                  <p>Понедельник-пятница, с 10:00 до 19:00</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+
+        <button class="btn"><a href="#">Построить маршрут</a></button>
+      </ul>
+    </div>
+  </section>
   </div>
 
   <div class="footer text_white">
