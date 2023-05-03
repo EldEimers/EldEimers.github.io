@@ -1,0 +1,103 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  font-weight: bold;
+}
+
+li {
+  color: blue;
+}
+
+.second_ex {
+  width: 15%;
+  padding: 0;
+}
+
+.second_ex li {
+  list-style-type: none;
+}
+
+.second_ex a {
+  background-color: transparent;
+  border: 1px solid blue;
+  display: inline-block;
+  margin-bottom: 7px;
+  width: 100%;
+  padding: 7px 5px;
+}
+
+.third_ex {
+  width: 15%;
+  padding: 0;
+}
+
+.third_ex li {
+  list-style-type: none;
+}
+
+.third_ex a {
+  background-color: rgb(73, 73, 73);
+  border: 1px solid black;
+  color: whitesmoke;
+  display: inline-block;
+  margin-bottom: 7px;
+  width: 100%;
+  padding: 7px 5px;
+}
+
+.fourth_ex {
+  width: 100%;
+  padding: 0;
+}
+
+.fourth_ex li {
+  list-style-type: none;
+  float: left;
+}
+
+.fourth_ex li:not(:nth-child(1)) {
+  margin-left: 5px;
+}
+
+.fourth_ex a {
+  background-color: transparent;
+  border: 1px solid blue;
+  margin-bottom: 7px;
+  width: 100%;
+  padding: 7px 5px;
+}
+
+.fourth_ex a:hover {
+  background-color: transparent;
+  color: blue;
+}
+
+.fifth_ex {
+  width: 100%;
+  padding: 0;
+}
+
+.fifth_ex li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.fifth_ex li:not(:nth-child(1)) {
+  margin-left: 1px;
+}
+
+.fifth_ex a {
+  background-color: transparent;
+  border: 1px solid blue;
+  margin-bottom: 7px;
+  width: 100%;
+  padding: 7px 5px;
+}
+
+.fifth_ex a:hover {
+  background-color: rgb(73, 73, 73);
+  color: whitesmoke;
+  border-color: black;
+}
