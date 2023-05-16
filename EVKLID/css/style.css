@@ -1,0 +1,45 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #FFF;
+}
+
+.header {
+  background-color: #FFF;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 100px;
+  display: flex;
+}
+
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 75px;
+}
+
+.nav_ul {
+  display: flex;
+}
+
+.nav_ul li {
+  margin-left: 85px;
+}
+
+.main {
+  margin: 0 75px;
+}
+
+#welcome{
+  background-image: url(../img/main_1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 620px;
+}
+
+.welcome_content {
+  padding: 100px 0 0 80px;
+}
